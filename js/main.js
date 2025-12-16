@@ -214,6 +214,5 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         return;
     }
 
-    alert("Form submitted successfully! I will get back to you shortly. Thanks😍");
-
+    alert("Thank You " + name +" Form submitted successfully! We will get back to you shortly. Thanks😍");
 })
