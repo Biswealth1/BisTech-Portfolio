@@ -164,7 +164,7 @@ document.getElementById("contact-form").onsubmit = function(event) {
     };
   
     // Send the email
-    emailjs.send("service_igvuf42", "template_o3yd79b", params)
+    emailjs.send("service_nvfw7w6", "template_o3yd79b", params)
       .then(function(response) {
         console.log("Email sent successfully!", response);
         // You can add a success message or redirect to a "Thank You" page here
