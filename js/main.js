@@ -210,6 +210,9 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 
     if (name === "" || email === "" || message === "" || subject ==="") {
         document.getElementById("error-message").textContent = "All fields are required.";
+        document.getElementById("error-message").style.color = "red";
+        
+        
        
         return;
     }
