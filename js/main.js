@@ -219,3 +219,5 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 
     alert("Thank You " + name +" Form submitted successfully! We will get back to you shortly. Thanks😍");
 })
+// footer year
+document.getElementById("year").textContent = new Date().getFullYear();
